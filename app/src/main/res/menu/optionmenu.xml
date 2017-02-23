@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="子菜单"
+        android:id="@+id/item1">
+        <menu >
+            <item android:title="子菜单11"
+                android:id="@+id/item11" />
+            <item android:title="子菜单12"
+                android:id="@+id/item12" />
+        </menu>
+    </item>
+    <item android:id="@+id/item2" android:title="子菜单2" />
+    <item android:id="@+id/item3" android:title="子菜单3" />
+</menu>
